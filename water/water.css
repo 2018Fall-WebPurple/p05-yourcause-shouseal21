@@ -1,0 +1,98 @@
+/*
+* Sarah Houseal
+* 12/21/18
+* charity: water
+*/
+
+/* The Universal Selector */
+
+/* makes the font lucida grande, the background color a shade of light grey, and the margin and padding 0 so i can adjust them myself.*/
+* {
+font-family: "Lucida Grande", sans-serif;
+background-color: #F0F1F3;
+margin: 0;
+padding: 0;
+}
+
+/* Body Attributes Here */
+/* centers the header, sets a margin & padding, and creates a border. */
+header {
+   text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+/* centers the main and creates a border. */
+main {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+/* centers the footer and creates a border. */
+footer {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+/* sets borders throughout all images, allignes the pictures differently, and sets width & height. */
+#water1 {
+    border: 1px solid black;
+    text-align: left;
+    width: 280px;
+    height: 200px;
+}
+#water2 {
+    border: 1px solid black;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+}
+#water3 {
+    border: 1px solid black;
+    text-align: right;
+    width: 280px;
+    height: 200px;
+}
+#water4 {
+    border: 1px solid black;
+    text-align: right;
+    width: 280px;
+    height: 200px;
+}
+#water5 {
+    border: 1px solid black;
+    text-align: right;
+    width: 280px;
+    height: 200px;
+}
+
+#map {
+    border: 1px solid black;
+    width: 1300px;
+    height: 600px;
+}
+#view {
+    border: 1px solid #F0F1F3;
+    width: 1500px;
+    height: 600px;
+}
+/* sets different things for each element including line height, width, margin, and padding. */
+p {
+    line-height: 30px;
+    width: 820px;
+    margin: auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+h4 {
+    width: 820px;
+    margin: auto;
+    padding: 20px;
+}
+ul {
+    width: 820px;
+    margin: auto;
+    padding: 20px; 
+}
